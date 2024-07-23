@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Counter | cliqnpic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">PAYMENT COUNTER</h1>
+        <div class="inputContainer">
+            <input id="input" type="text" placeholder="PASTE HERE!!">
+            <section id="buttonSection">
+                <button class="button" id="resetBtn">RESET</button>
+                <button class="button" id="checkBtn">CHECK</button>
+            </section>
+        </div>
+        <div class="resultContainer">
+            <div class="result">
+                <span class="venue">Plaza Renon</span>
+                <span class="total" id="plaza"></span>
+                <div class="plusMinBtn">
+                    <button class="minBtn" id="plazaMin">-</button>
+                    <span class="plusMinDesc" id="plazaDesc">0</span>
+                    <button class="plusBtn" id="plazaPlus">+</button>
+                </div>
+            </div>
+            <div class="result">
+                <span class="venue">JA'AN</span>
+                <span class="total" id="jaan"></span>
+                <div class="plusMinBtn">
+                    <button class="minBtn" id="jaanMin">-</button>
+                    <span class="plusMinDesc" id="jaanDesc">0</span>
+                    <button class="plusBtn" id="jaanPlus">+</button>
+                </div>
+            </div>
+            <div class="result">
+                <span class="venue">TRANS</span>
+                <span class="total" id="trans"></span>
+                <div class="plusMinBtn">
+                    <button class="minBtn" id="transMin">-</button>
+                    <span class="plusMinDesc" id="transDesc">0</span>
+                    <button class="plusBtn" id="transPlus">+</button>
+                </div>
+            </div>
+            <div class="result">
+                <span class="venue">Lombok</span>
+                <span class="total" id="lombok"></span>
+            </div>
+            <div class="result">
+                <span class="venue">KONA</span>
+                <span class="total" id="kona"></span>
+            </div>
+            <div class="result">
+                <span class="venue refund">REFUND</span>
+                <span class="total" id="refund"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
